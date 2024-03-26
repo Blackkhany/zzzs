@@ -1,0 +1,5 @@
+x = seq(-10, 10, by=0.1)
+y = dnorm(x, mean = 2.5, sd = 2)
+png(file="pnormExample.png")
+plot(x, y)
+dev.off()

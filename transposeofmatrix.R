@@ -1,0 +1,5 @@
+A = matrix(c(12,2,3,4,5,6),nrow = 3,ncol = 2,byrow = FALSE)
+print (" The given matrix A is ")
+print(A)
+print(" The transpose of the matrix A is ")
+print(t(A))
